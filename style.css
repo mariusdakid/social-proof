@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-family: 15px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 242, 247);
+}
+
+.container{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.top-section{
+    display: flex;
+    gap: 4rem;
+}
+
+.left{
+    width: 50%;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 1rem;
+    color:  rgb(80, 32, 80);
+}
+
+.left p{
+    font-weight: 400;
+    color: rgb(148, 122, 147);
+    font-size: 12px;
+    margin-bottom: 2rem;
+}
+
+.right{
+    width: 50%;
+    padding: 1rem;
+}
+
+.ratings{
+    background-color: rgb(240, 222, 231);
+    padding: 0.8rem;
+    font-size: 11px;
+    margin: 5px;
+    display: flex;
+    font-weight: 500;
+    gap: 1rem;margin-left: 50px;
+    color:  rgb(80, 32, 80);
+    border-radius: 9px;
+}
+
+.contain2{
+  transform: translateX(2rem);
+}
+
+.contain3{
+    transform: translateX(4rem);
+}
+
+.stars{
+    width: 10px;
+    height: 10px;
+    margin-right: 0.2rem;
+}
+
+.last-star{
+    margin-right: 0.9rem;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boxes{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+.box, h5, span{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.box, span{
+    font-size: 12px;
+}
+
+.box, h6{
+    color:  rgb(238, 104, 164);
+    font-weight: 400;
+}
+
+.box{
+    padding: 1rem;
+    background-color: rgb(80, 32, 80);
+    border-radius: 6px;
+}
+
+.box2{
+    transform: translateY(1rem);
+}
+
+.box3{
+    transform: translateY(2rem);
+}
+
+img{
+    border-radius: 50px;
+    width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container{
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .top-section{
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .boxes{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+
+    .contain2{
+        transform: translateX(0rem);
+      }
+      
+      .contain3{
+          transform: translateX(0rem);
+      }
+
+    body{
+        min-height: 100vh;
+    }
+
+    .box2{
+        transform: translateY(0rem);
+    }
+    
+    .box3{
+        transform: translateY(0rem);
+    }
+
+    .right{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .left p{
+        margin-bottom: 0rem;
+    }
+    
+    
+    
+    .ratings{
+        padding: 0.8rem;
+        font-size: 11px;
+        margin: 5px;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        display: flex;
+    }
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .container{
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .top-section{
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .boxes{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+
+    .contain2{
+        transform: translateX(0rem);
+      }
+      
+      .contain3{
+          transform: translateX(0rem);
+      }
+
+    body{
+        min-height: 100vh;
+    }
+
+    .box2{
+        transform: translateY(0rem);
+    }
+    
+    .box3{
+        transform: translateY(0rem);
+    }
+
+    .right{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .left p{
+        margin-bottom: 0rem;
+    }
+    
+    
+    
+    .ratings{
+        padding: 0.8rem;
+        font-size: 11px;
+        margin: 5px;
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        display: flex;
+    }
+
+
+}
